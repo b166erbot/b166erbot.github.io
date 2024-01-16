@@ -6,6 +6,26 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif sans-serif;
 }
 
-.minha_descricao {
-    font-style: oblique;
+strong {
+    color: #26547C;
+}
+
+.python {
+    font-size: 20px;
+}
+
+.javascript {
+    font-size: 18px;
+}
+
+.sql {
+    font-size: 16px;
+}
+
+.html {
+    font-size: 14px;
+}
+
+.css {
+    font-size: 12px;
 }
