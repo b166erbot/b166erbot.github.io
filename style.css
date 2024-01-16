@@ -1,7 +1,11 @@
 body {
-    background-color: rgb(81, 156, 81);
+    background-color: #99B2DD;
 }
 
 .meu_nome, .minha_descricao {
     font-family: Verdana, Geneva, Tahoma, sans-serif sans-serif;
+}
+
+.minha_descricao {
+    font-style: oblique;
 }
