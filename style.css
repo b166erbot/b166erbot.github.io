@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(81, 156, 81);
+}
+
 .meu_nome, .minha_descricao {
     font-family: Verdana, Geneva, Tahoma, sans-serif sans-serif;
 }
