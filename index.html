@@ -9,58 +9,74 @@
 </head>
 
 <body>
-    <h1>Meu portfólio pessoal.</h1>
-    <p>Olá! meu nome é <i>Bernardo de Freitas Teodoro.</i></p>
-    <h3>Seções:</h3>
-    <ol>
-        <li>
-            <p>Minha <a href="#minha descrição">descrição</a></p>
-        </li>
-        <li>
-            <p>Lista de <a href="#habilidades">habilidades</a></p>
-        </li>
-        <li>
-            <p>
-                Um <a href="#blog">blog</a> que gosto de ler
+    <header>
+        <section>
+            <h1>Meu portfólio pessoal.</h1>
+        </section>
+    </header>
+    
+    <div>
+        <h3>Seções:</h3>
+        <ol>
+            <li>
+                <p>Minha <a href="#minha-descricao">descrição</a></p>
+            </li>
+            <li>
+                <p>Lista de <a href="#habilidades">habilidades</a></p>
+            </li>
+            <li>
+                <p>
+                    Um <a href="#blog">blog</a> que gosto de ler
+                </p>
+            </li>
+            <li>
+                <p>Minha <a href="#minha-foto">foto</a></p>
+            </li>
+        </ol>
+    </div>
+    
+    <div>
+        <p class="meu-nome">Olá! meu nome é <i>Bernardo de Freitas Teodoro.</i></p>
+        <div class="foto-descricao-container">
+            <img id="minha-foto" src="./minha foto.jpg" alt="Tryber triste sem camiseta da trybe.">
+            <p class="minha_descricao" id="minha-descricao">
+                Descrição sobre mim:<br><br>
+                Eu sou mineiro nascido no <strong>Brasil</strong>, moro em <strong>Ituiutaba-MG</strong>.<br>
+                Gosto de ouvir música como rock, sertanejo universitário (Jorge & Mateus) e dubstep
+                em geral.<br> Adoro programar e resolver problemas em Python.
             </p>
-        </li>
-        <li>
-            <p>Minha <a href="#minha foto">foto</a></p>
-        </li>
-    </ol>
-    <p class="minha_descricao" id="minha descrição">
-        Descrição sobre mim:<br><br>
-        Eu sou mineiro nascido no <strong>Brasil</strong>, moro em <strong>Ituiutaba-MG</strong>.<br>
-        Gosto de ouvir música como rock, sertanejo universitário (Jorge & Mateus) e dubstep
-        em geral.<br> Adoro programar e resolver problemas em Python.
-    </p>
-    <p id="habilidades">Lista de habilidades:</p>
-    <ul>
-        <li>
-            <p class="python">- <i>Python</i></p>
-        </li>
-        <li>
-            <p class="javascript">- JavaScript</p>
-        </li>
-        <li>
-            <p class="sql">- SQL</p>
-        </li>
-        <li>
-            <p class="html">- HTML</p>
-        </li>
-        <li>
-            <p class="css">- CSS</p>
-        </li>
-    </ul>
-    <p id="blog">Um blog que eu gosto de ler:</p>
-    <a href="https://diolinux.com.br/" target="_blank" rel="noopener noreferrer">blog do diolinux</a>
-    <p>Minha foto:</p>
-    <img id="minha foto" src="./minha foto.jpg" alt="Tryber triste sem camiseta da trybe." width="200">
-    <p>
-        Nesta foto eu estou sem camisa e segurando o celular.
-        Escolhi esta foto pois não achei outra melhor para me
-        apresentar.
-    </p>
+        </div>
+    </div>
+    
+    <div id="habilidades">
+        <p>Lista de habilidades:</p>
+        <ul>
+            <li>
+                <p class="python"><i>Python</i> <span style="color: red;">&hearts;</span></p>
+            </li>
+            <li>
+                <p class="javascript">JavaScript</p>
+            </li>
+            <li>
+                <p class="sql">SQL</p>
+            </li>
+            <li>
+                <p class="html">HTML</p>
+            </li>
+            <li>
+                <p class="css">CSS</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="blog">
+        <p>Um blog que eu gosto de ler:</p>
+        <a href="https://diolinux.com.br/" target="_blank" rel="noopener noreferrer">blog do diolinux</a>
+    </div>
+
+    <footer>
+        <p>Estou fazendo somente o que pediram para fazer, se estiver horrível culpem os exercícios.</p>
+    </footer>
 </body>
 
 </html>

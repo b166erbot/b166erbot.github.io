@@ -1,31 +1,53 @@
 body {
-    background-color: #99B2DD;
+  background-color: #99B2DD;
 }
 
-.meu_nome, .minha_descricao {
-    font-family: Verdana, Geneva, Tahoma, sans-serif sans-serif;
+.meu-nome,
+.minha_descricao {
+  font-family: Roboto, sans-serif;
+}
+
+.meu-nome {
+  text-align: center;
+}
+
+.foto-descricao-container {
+  height: 100px;
+}
+
+#minha-foto {
+  height: 100px;
+  float: left;
+  margin-right: 20px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  background-color: black;
 }
 
 strong {
-    color: #26547C;
+  color: #26547C;
 }
 
 .python {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .javascript {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .sql {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .html {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .css {
-    font-size: 12px;
+  font-size: 12px;
+}
+
+#habilidades ul li:nth-child(odd) {
+  background-color: chocolate;
 }
