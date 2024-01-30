@@ -4,7 +4,6 @@ body {
   background-color: black;
   color: #19c113;
   font-family: 'Source Code Pro', monospace !important;
-  margin-left: 50px;
 }
 
 .container-left {
@@ -12,9 +11,14 @@ body {
   width: 60%;
 }
 
+header {
+  margin-left: 50px;
+}
+
 main {
   max-width: 850px;
   margin-top: 50px;
+  margin-left: 50px;
 }
 
 main section > div {
@@ -84,6 +88,24 @@ img {
   margin-right: 20px;
 }
 
-em, strong {
+strong {
   color: #19c113;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer div a {
+  border: #19c113 thin solid;
+  border-radius: 100px;
+  margin-right: 20px;
+  padding: 10px 20px;
+}
+
+footer div {
+  margin-top: 20px;
 }
