@@ -81,11 +81,11 @@ nav a:hover {
 }
 
 img {
-  float: right;
+  /* float: right; */
   height: 200px;
   box-shadow: #19c113 0.2em 0.1em 0.2em;
-  margin-top: 100px;
-  margin-right: 20px;
+  margin-left: 100px;
+  display: inline-block;
 }
 
 strong {
@@ -97,16 +97,19 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 50px;
 }
 
-footer div a {
+footer div div a {
   border: #19c113 thin solid;
   border-radius: 100px;
   margin-right: 20px;
   padding: 10px 20px;
 }
 
+footer div > h1 {
+  margin-bottom: 40px;
+}
+
 footer div {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
